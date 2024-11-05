@@ -8,7 +8,7 @@ group :test do
   gem 'rspec'
   gem 'rspec-retry'
   gem 'rspec-expectations'
-  gem 'rubocop'
+  gem 'rubocop', '>= 1.66.0'
   gem 'simplecov', '>= 0.21.2', require: false
   gem 'vcr'
   gem 'webmock'
